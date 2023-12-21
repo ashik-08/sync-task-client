@@ -7,6 +7,10 @@ export default {
       roboto: ["Roboto", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        "hero-bg":
+          "url('https://i.ibb.co/4sNKg6r/task-banner.jpg')",
+      },
       colors: {
         special: "#F7931E",
         head: "#61C0BF",
