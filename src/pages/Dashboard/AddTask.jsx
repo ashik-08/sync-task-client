@@ -51,7 +51,13 @@ const AddTask = () => {
       <Helmet>
         <title>SyncTask | Add Task</title>
       </Helmet>
-      <section className="animated-gradient px-5 md:px-14 lg:px-28 py-20 drop-shadow-sm 2xl:my-36">
+      <section
+        className="animated-gradient px-5 md:px-14 lg:px-28 py-20 drop-shadow-sm 2xl:my-36"
+        data-aos="zoom-in"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-out-sine"
+        data-aos-duration="1200"
+      >
         <h1 className="text-center text-head font-slab font-medium text-4xl lg:text-5xl mb-8">
           Add New Task
         </h1>
