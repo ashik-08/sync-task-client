@@ -92,7 +92,7 @@ const DashboardLayout = () => {
               <>
                 <li>
                   <NavLink
-                    to="/dashboard/user-profile"
+                    to="/dashboard"
                     className={({ isActive }) =>
                       isActive
                         ? "text-white text-lg md:text-xl font-play font-bold uppercase"

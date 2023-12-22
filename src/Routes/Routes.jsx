@@ -5,6 +5,7 @@ import Register from "../pages/Register/Register";
 import Login from "../pages/Login/Login";
 import PrivateRoute from "./PrivateRoute";
 import DashboardLayout from "../layout/DashboardLayout";
+import UserProfile from "../pages/Dashboard/UserProfile";
 
 export const router = createBrowserRouter([
   {
@@ -27,5 +28,11 @@ export const router = createBrowserRouter([
         <DashboardLayout />
       </PrivateRoute>
     ),
+    children: [
+      {
+        index: true,
+        element: <UserProfile />,
+      },
+    ],
   },
 ]);
