@@ -53,7 +53,7 @@ export const router = createBrowserRouter([
         path: "update-task/:id",
         element: <UpdateTask />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5005/task/${params.id}`),
+          fetch(`https://sync-task-server.vercel.app/task/${params.id}`),
       },
     ],
   },
