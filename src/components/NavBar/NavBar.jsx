@@ -73,7 +73,7 @@ const NavBar = () => {
                   to="/"
                   className="text-head md:text-3xl xl:text-4xl font-play font-bold italic"
                 >
-                  Sync Task
+                  SyncTask
                 </Link>
               </div>
             </div>

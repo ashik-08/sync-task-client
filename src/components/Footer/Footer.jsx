@@ -42,7 +42,7 @@ const Footer = () => {
                     variant="h5"
                     className="text-head text-2xl md:text-3xl lg:text-4xl font-play font-bold italic pt-1 md:pt-1.5"
                   >
-                    Sync Task
+                    SyncTask
                   </Typography>
                 </Link>
               </div>
@@ -78,7 +78,7 @@ const Footer = () => {
               variant="small"
               className="mb-4 text-center font-medium text-blue-gray-900 md:mb-0"
             >
-              &copy; {currentYear} <a href="/">Sync Task</a>. All Rights
+              &copy; {currentYear} <a href="/">SyncTask</a>. All Rights
               Reserved.
             </Typography>
             <div className="flex gap-4 text-blue-gray-900 sm:justify-center">

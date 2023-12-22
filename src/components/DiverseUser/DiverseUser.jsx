@@ -12,7 +12,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const DiverseUser = () => {
   return (
-    <section id="customer" className="mt-24 md:mt-32 lg:mt-36 xl:mt-40">
+    <section className="mt-24 md:mt-32 lg:mt-36 xl:mt-40">
       <h1 className="text-center text-head text-2xl md:text-4xl font-play font-bold italic mb-8 md:mb-12 lg:mb-14 xl:mb-16">
         Diverse User
       </h1>
