@@ -19,18 +19,6 @@ const NavBar = () => {
       </li>
       <li>
         <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive
-              ? "text-special text-sm md:text-lg font-bold"
-              : "text-sm md:text-lg"
-          }
-        >
-          About
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
           to="/dashboard"
           className={({ isActive }) =>
             isActive
@@ -51,6 +39,18 @@ const NavBar = () => {
           }
         >
           Customer
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? "text-special text-sm md:text-lg font-bold"
+              : "text-sm md:text-lg"
+          }
+        >
+          About
         </NavLink>
       </li>
     </>
