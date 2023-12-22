@@ -8,6 +8,7 @@ import DashboardLayout from "../layout/DashboardLayout";
 import UserProfile from "../pages/Dashboard/UserProfile";
 import AddTask from "../pages/Dashboard/AddTask";
 import Dashboard from "../pages/Dashboard/Dashboard";
+import MyTasks from "../pages/Dashboard/MyTasks";
 
 export const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ export const router = createBrowserRouter([
       {
         path: "profile",
         element: <UserProfile />,
+      },
+      {
+        path: "my-tasks",
+        element: <MyTasks />,
       },
       {
         path: "add-task",
