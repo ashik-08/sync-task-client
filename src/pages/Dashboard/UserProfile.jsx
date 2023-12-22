@@ -8,12 +8,12 @@ const UserProfile = () => {
   return (
     <>
       <Helmet>
-        <title>SyncTask | Dashboard</title>
+        <title>SyncTask | Profile</title>
       </Helmet>
       <section>
         {user && (
           <div
-            className="text-lg md:text-2xl fond-bold italic text-center mt-6 md:mt-16 space-y-5"
+            className="text-lg md:text-2xl fond-bold italic text-center mt-6 md:mt-16 space-y-5 2xl:my-36"
             data-aos="zoom-in-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-out-sine"

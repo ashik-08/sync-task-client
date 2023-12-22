@@ -45,9 +45,12 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Developers manage coding tasks, project timelines, and
               collaboration with SyncTask. <br /> <br />
-              &quot;SyncTask is a game-changer for our development team. It
-              keeps us organized and on track. A must-have for any
-              project!&quot;
+              <i>
+                {" "}
+                &quot;SyncTask is a game-changer for our development team. It
+                keeps us organized and on track. A must-have for any
+                project!&quot;{" "}
+              </i>
             </p>
           </div>
         </SwiperSlide>
@@ -67,9 +70,9 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Corporate professionals streamline tasks, manage projects, and
               enhance team collaboration with SyncTask. <br /> <br />
-              &quot;SyncTask is integral to our workflow. It&apos;s
+              <i>&quot;SyncTask is integral to our workflow. It&apos;s
               user-friendly and boosts our team&apos;s efficiency. A powerful
-              tool for professionals.&quot;
+              tool for professionals.&quot;</i>
             </p>
           </div>
         </SwiperSlide>
@@ -89,9 +92,9 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Bankers efficiently manage tasks, appointments, and deadlines with
               SyncTask. <br /> <br />
-              &quot;SyncTask streamlines our banking operations. It&apos;s a
+              <i>&quot;SyncTask streamlines our banking operations. It&apos;s a
               lifesaver for managing appointments and tracking financial
-              tasks.&quot;
+              tasks.&quot;</i>
             </p>
           </div>
         </SwiperSlide>
@@ -111,8 +114,8 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Entrepreneurs manage business tasks, client meetings, and projects
               effortlessly with SyncTask. <br /> <br />
-              &quot;SyncTask is the entrepreneur&apos;s best friend. It keeps
-              everything organized and is essential for business owners.&quot;
+              <i>&quot;SyncTask is the entrepreneur&apos;s best friend. It keeps
+              everything organized and is essential for business owners.&quot;</i>
             </p>
           </div>
         </SwiperSlide>
@@ -132,9 +135,9 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Freelancers organize client tasks, track project progress, and
               meet deadlines seamlessly with SyncTask. <br /> <br />
-              &quot;SyncTask brings order to freelancing chaos. I can
+              <i>&quot;SyncTask brings order to freelancing chaos. I can
               efficiently manage tasks and ensure timely delivery. A
-              game-changer.&quot;
+              game-changer.&quot;</i>
             </p>
           </div>
         </SwiperSlide>

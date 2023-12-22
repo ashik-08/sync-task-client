@@ -68,9 +68,9 @@ const DashboardLayout = () => {
           {/* sidebar content here */}
           <div className="w-72 min-h-screen bg-special py-12">
             <p className="text-2xl font-play font-black uppercase ml-6">
-              Sync Task
+              <Link to="/dashboard">Sync Task</Link>
             </p>
-            <p className="text-xl font-play font-medium uppercase tracking-[2px] ml-6 my-4">
+            <p className="text-xl font-play font-medium uppercase tracking-[2px] ml-6 my-5">
               Task <br /> management <br /> dashboard
             </p>
             <div className="w-20 md:w-28 lg:w-40 ml-6">
@@ -92,7 +92,7 @@ const DashboardLayout = () => {
               <>
                 <li>
                   <NavLink
-                    to="/dashboard"
+                    to="/dashboard/profile"
                     className={({ isActive }) =>
                       isActive
                         ? "text-white text-lg md:text-xl font-play font-bold uppercase"
