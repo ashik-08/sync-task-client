@@ -40,7 +40,7 @@ const Footer = () => {
                 <Link to="/">
                   <Typography
                     variant="h5"
-                    className="text-head text-2xl md:text-3xl lg:text-4xl font-play font-bold pt-1 md:pt-1.5"
+                    className="text-head text-2xl md:text-3xl lg:text-4xl font-play font-bold italic pt-1 md:pt-1.5"
                   >
                     Sync Task
                   </Typography>
