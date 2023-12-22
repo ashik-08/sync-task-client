@@ -83,7 +83,7 @@ const Register = () => {
   return (
     <>
       <Helmet>
-        <title>Contest Hub | Register</title>
+        <title>SyncTask | Register</title>
       </Helmet>
       <section className="flex flex-col lg:flex-row items-center gap-16 md:gap-24 container mx-auto my-20 lg:my-5">
         <div className="flex-1">
