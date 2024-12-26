@@ -10,6 +10,12 @@ import "./styles.css";
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 
+import user1 from "../../assets/home/user-1.jpg";
+import user2 from "../../assets/home/user-2.jpg";
+import user3 from "../../assets/home/user-3.jpg";
+import user4 from "../../assets/home/user-4.jpg";
+import user5 from "../../assets/home/user-5.jpg";
+
 const DiverseUser = () => {
   return (
     <section className="mt-24 md:mt-32 lg:mt-36 xl:mt-40">
@@ -32,8 +38,8 @@ const DiverseUser = () => {
         <SwiperSlide>
           <div className="space-y-1 md:space-y-1.5 lg:space-y-2.5 xl:space-y-4 p-5 md:pl-16 lg:pl-28 xl:pl-36 mb-10 border rounded-lg shadow-sm">
             <img
-              className="w-12 md:w-20 xl:w-28 drop-shadow-md"
-              src="https://erinknitwear.com/wp-content/uploads/2021/01/Erin-Knitwear22-1-400x400.jpg"
+              className="w-12 md:w-20 xl:w-28 rounded-md drop-shadow-md"
+              src={user1}
               alt="user-img"
             />
             <p className="text-head text-sm md:text-base lg:text-xl xl:text-2xl font-semibold">
@@ -57,8 +63,8 @@ const DiverseUser = () => {
         <SwiperSlide>
           <div className="space-y-1 md:space-y-1.5 lg:space-y-2.5 xl:space-y-4 p-5 md:pl-16 lg:pl-28 xl:pl-36 mb-10 border rounded-lg shadow-sm">
             <img
-              className="w-12 md:w-20 xl:w-28 drop-shadow-md"
-              src="https://www.rappler.com/uploads/2023/10/russell-ku-author-photo-scaled-400x400.jpeg"
+              className="w-12 md:w-20 xl:w-28 rounded-md drop-shadow-md"
+              src={user2}
               alt="user-img"
             />
             <p className="text-head text-sm md:text-base lg:text-xl xl:text-2xl font-semibold">
@@ -70,17 +76,19 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Corporate professionals streamline tasks, manage projects, and
               enhance team collaboration with SyncTask. <br /> <br />
-              <i>&quot;SyncTask is integral to our workflow. It&apos;s
-              user-friendly and boosts our team&apos;s efficiency. A powerful
-              tool for professionals.&quot;</i>
+              <i>
+                &quot;SyncTask is integral to our workflow. It&apos;s
+                user-friendly and boosts our team&apos;s efficiency. A powerful
+                tool for professionals.&quot;
+              </i>
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="space-y-1 md:space-y-1.5 lg:space-y-2.5 xl:space-y-4 p-5 md:pl-16 lg:pl-28 xl:pl-36 mb-10 border rounded-lg shadow-sm">
             <img
-              className="w-12 md:w-20 xl:w-28 drop-shadow-md"
-              src="https://miro.medium.com/v2/resize:fit:400/1*RM8giWAHiR4ofI5_yOPwUg.jpeg"
+              className="w-12 md:w-20 xl:w-28 rounded-md drop-shadow-md"
+              src={user3}
               alt="user-img"
             />
             <p className="text-head text-sm md:text-base lg:text-xl xl:text-2xl font-semibold">
@@ -92,17 +100,19 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Bankers efficiently manage tasks, appointments, and deadlines with
               SyncTask. <br /> <br />
-              <i>&quot;SyncTask streamlines our banking operations. It&apos;s a
-              lifesaver for managing appointments and tracking financial
-              tasks.&quot;</i>
+              <i>
+                &quot;SyncTask streamlines our banking operations. It&apos;s a
+                lifesaver for managing appointments and tracking financial
+                tasks.&quot;
+              </i>
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="space-y-1 md:space-y-1.5 lg:space-y-2.5 xl:space-y-4 p-5 md:pl-16 lg:pl-28 xl:pl-36 mb-10 border rounded-lg shadow-sm">
             <img
-              className="w-12 md:w-20 xl:w-28 drop-shadow-md"
-              src="https://www.charlesbank.com/wp-content/uploads/2021/08/Dan-Trunzo-for-the-web-400x400-1.jpg"
+              className="w-12 md:w-20 xl:w-28 rounded-md drop-shadow-md"
+              src={user4}
               alt="user-img"
             />
             <p className="text-head text-sm md:text-base lg:text-xl xl:text-2xl font-semibold">
@@ -114,16 +124,18 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Entrepreneurs manage business tasks, client meetings, and projects
               effortlessly with SyncTask. <br /> <br />
-              <i>&quot;SyncTask is the entrepreneur&apos;s best friend. It keeps
-              everything organized and is essential for business owners.&quot;</i>
+              <i>
+                &quot;SyncTask is the entrepreneur&apos;s best friend. It keeps
+                everything organized and is essential for business owners.&quot;
+              </i>
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="space-y-1 md:space-y-1.5 lg:space-y-2.5 xl:space-y-4 p-5 md:pl-16 lg:pl-28 xl:pl-36 mb-10 border rounded-lg shadow-sm">
             <img
-              className="w-12 md:w-20 xl:w-28 drop-shadow-md"
-              src="https://pbs.twimg.com/profile_images/1304671153336713218/Bt8m1M39_400x400.jpg"
+              className="w-12 md:w-20 xl:w-28 rounded-md drop-shadow-md"
+              src={user5}
               alt="user-img"
             />
             <p className="text-head text-sm md:text-base lg:text-xl xl:text-2xl font-semibold">
@@ -135,9 +147,11 @@ const DiverseUser = () => {
             <p className="max-w-xs lg:max-w-sm text-details md:text-sm lg:text-base md:font-medium">
               Freelancers organize client tasks, track project progress, and
               meet deadlines seamlessly with SyncTask. <br /> <br />
-              <i>&quot;SyncTask brings order to freelancing chaos. I can
-              efficiently manage tasks and ensure timely delivery. A
-              game-changer.&quot;</i>
+              <i>
+                &quot;SyncTask brings order to freelancing chaos. I can
+                efficiently manage tasks and ensure timely delivery. A
+                game-changer.&quot;
+              </i>
             </p>
           </div>
         </SwiperSlide>
